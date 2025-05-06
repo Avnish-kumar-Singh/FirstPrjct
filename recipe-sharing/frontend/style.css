@@ -1,0 +1,123 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Submit container with background image */
+.submit-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+    url('images/bg.jpg') center/cover no-repeat fixed;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.2em;
+  color: #e44d26;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a.current-page {
+  color: #e44d26;
+  text-decoration: none;
+  cursor: default;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.recipe-input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  width: calc(100% - 24px);
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  min-height: 120px;
+}
+
+.form-group .form-text {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #999;
+}
+
+.submit-button {
+  background-color: #5cb85c;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #4cae4c;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  color: #777;
+  font-size: 0.9em;
+  border-top: 1px solid #eee;
+}
